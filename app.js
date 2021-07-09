@@ -8,7 +8,7 @@ if (entradaInicial.toLocaleUpperCase() === 'S') {
     console.log('Essas são as categorias disponiveis')
     console.log('Finanças, Documental, Desenvolvimento Pessoal')
 
-    const entradaCategoria = readline.question('Qual categoria você escolhe?')
+    const entradaCategoria = readline.question('Qual categoria voce escolhe?')
     
     const retorno = livros.filter(livro => livro.categoria === entradaCategoria)
     console.table(retorno)
